@@ -8,5 +8,12 @@ describe('When everything is ok', () => {
     screen.debug()
   })
   
+
+  test('should select the children that is being passed to the CustomInput component ', () => {
+    render(<App/>);
+    screen.getByText('Input:') // da error si cambio lo que esta aca
+  })
+  
+
 })
 
