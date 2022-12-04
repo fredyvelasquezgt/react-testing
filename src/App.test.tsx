@@ -14,6 +14,10 @@ describe('When everything is ok', () => {
     screen.getByText('Input:') // da error si cambio lo que esta aca
   })
   
+  test('should ', () => {
+    
+  })
+  
 
 })
 
